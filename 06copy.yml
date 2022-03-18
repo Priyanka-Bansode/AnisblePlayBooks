@@ -4,7 +4,7 @@
    tasks:
      - name: Copy ansible inventory file to all hostmachines
        copy: src=/etc/ansible/hosts 
-             dest=/tmp/  
+             dest=/tmp/new/  
              owner=root 
              group=root 
              mode=0666
