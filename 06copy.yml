@@ -1,5 +1,5 @@
 ---
- - hosts: all
+ - hosts: HttpServers
    become: true
    tasks:
      - name: Copy ansible inventory file to all hostmachines
