@@ -1,7 +1,7 @@
 #This playbbok will install HTTP server and will not start the server.
 
 ---
-- hosts: HttpServers
+- hosts: test_servers
   become: true
   tasks:
     - name: Install Apache HTTP server
