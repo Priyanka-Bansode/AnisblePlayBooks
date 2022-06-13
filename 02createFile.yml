@@ -1,5 +1,5 @@
 ---
-- hosts: HttpServers
+- hosts: app_servers
   tasks:
    - name: Create a file
      file:
